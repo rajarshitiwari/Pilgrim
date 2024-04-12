@@ -47,7 +47,8 @@ from   common.physcons import KB
 from   common.fncs     import exp128
 from   scipy.optimize  import curve_fit
 #-------------------------------------------------------#
-np.warnings.filterwarnings('ignore')
+import warnings
+warnings.filterwarnings('ignore')
 #=======================================================#
 
 TR_DEFAULT = 300.0
